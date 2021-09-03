@@ -16,8 +16,10 @@ function aud_play_pause() {
   }
 }
 
-<source src="1 Intro.wav" type="audio/wav">                                                
-<audio id="myTune" src="1 Intro.wav"></audio>
+<audio id="myTune">
+  <source src="1 Intro.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>                                              
 
 
 <button type="button"  onclick="aud_play_pause()">Play/Pause</button>                                        
