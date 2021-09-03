@@ -7,10 +7,16 @@
                                                                                     
 <h1 style="color:white;">Intro</h1>
 
-<audio id="track">
-  <source src="1 Intro.mp3" type="audio/wav" />
-</audio>
+function aud_play_pause() {
+  var myAudio = document.getElementById("myTune");
+  if (myAudio.paused) {
+    myAudio.play();
+  } else {
+    myAudio.pause();
+  }
+}
+                                                
+<audio id="myTune" src="1 Intro.wav"></audio>
 
-<div id="player-container">
-  <div id="play-pause" class="play">Play</div>
-</div>                        
+
+<button type="button"  onclick="aud_play_pause()">Play/Pause</button><button class="astext">hello, world</button>                                               
