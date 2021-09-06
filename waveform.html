@@ -48,9 +48,9 @@
 			var rate;
 			
 			function getAudioData() {
-				rate = audio.mozSampleRate;
-				channels = audio.mozChannels;
-				length = audio.mozFrameBufferLength;
+				rate = 44100;
+				channels = 1;
+				length = 10;
 				info.innerHTML = "rate: " + rate + "<br/>channels: " + channels + "</br>length: " + length;
 			}
 			
