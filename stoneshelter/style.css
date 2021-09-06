@@ -2,11 +2,11 @@
   
 }
 .play {
-  <p><b>Intro</b></p>;
+  <h1><b>Intro</b></h1>;
   cursor:pointer;
 }
 .pause {
    color: #e85a5a;
-   <p><b>Intro</b></p>;
+   <h1><b>Intro</b></h1>;
    cursor:pointer;
 }
