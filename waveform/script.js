@@ -109,4 +109,4 @@ const drawLineSegment = (ctx, x, height, width, isEven) => {
   ctx.stroke();
 };
 
-drawAudio('https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoptalk-clip.mp3');
+drawAudio('1 Intro.wav');
