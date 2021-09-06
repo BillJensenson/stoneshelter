@@ -3,10 +3,10 @@
 }
 .play {
   <h1><b>Intro</b></h1>;
-  cursor:pointer;
+  cursor: pointer;
 }
 .pause {
    color: #e85a5a;
    <h1><b>Intro</b></h1>;
-   cursor:pointer;
+   cursor: pointer;
 }
