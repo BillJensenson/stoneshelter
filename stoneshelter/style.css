@@ -4,9 +4,11 @@
 .play {
   <h1><b>Intro</b></h1>;
   cursor: pointer;
+  text-align: left;
 }
 .pause {
    color: #e85a5a;
    <h1><b>Intro</b></h1>;
    cursor: pointer;
+   text-align: left;
 }
