@@ -1,4 +1,4 @@
-var track = document.querySelectorAll("pad,drums");
+var track = document.getElementById('track');
 
 var controlBtn = document.getElementById('play-pause');
 
