@@ -1,4 +1,4 @@
-var track = document.getElementById('track');
+var track = document.getElementsByClassName("track");
 
 var controlBtn = document.getElementById('play-pause');
 
