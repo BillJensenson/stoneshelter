@@ -43,9 +43,12 @@
                      document.getElementById('marquee').start();
                     }    
                                                             
-                     else {
+                     else if (track.play) {
                           document.getElementById('marquee').stop();
                     }
+                     else {
+                          document.getElementById('marquee').stop();
+                    }                                       
                                                                                                        
 </script>                                                                                         
                                                                                             
