@@ -39,19 +39,12 @@
                                                                                             
 <script>
                  var track = document.getElementById("track");                                                                            
-                 if(document.readyState){
-                     const marquee = document.getElementById('marquee');
-                     document.body.addEventListener('keydown',function(event){
                      if(track.paused){
                           marquee.stop()
-                     }
-                 })
-                     document.body.addEventListener('keyup',function(event){
-                         if(track.play){
+                    }
+                     if(track.play){
                      marquee.start()
-        }
-    })
-}                                                                                            
+                    }                                                                                           
 </script>                                                                                         
                                                                                             
                                                                                             
