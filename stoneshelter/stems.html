@@ -39,12 +39,14 @@
                                                                                             
 <script>
                  var track = document.getElementById("track");                                                                            
-                     if (track.paused) {
-                          document.getElementById('marquee').stop();
-                    }
                      if (track.play) {
                      document.getElementById('marquee').start();
-                    }                                                                                           
+                    }    
+                                                            
+                     else if (track.paused) {
+                          document.getElementById('marquee').stop();
+                    }
+                                                                                                       
 </script>                                                                                         
                                                                                             
                                                                                             
